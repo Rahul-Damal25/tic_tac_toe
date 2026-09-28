@@ -1,80 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body.win {
-  background-color: #aacddc;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e0e5b6;
-}
-
-.game {
-  text-align: center;
-  margin-top: 3rem;
-}
-h1 {
-  margin-bottom: 10px;
-  font-size: 3rem;
-  text-shadow: 1px 1px 1px pink;
-}
-h2 {
-  margin-bottom: 20px;
-}
-
-.board {
-  width: 300px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-  margin: auto;
-}
-.box {
-  height: 100px;
-  cursor: pointer;
-  border: 2px solid black;
-  font-size: 2rem;
-  border-radius: 10px;
-  background-color: #fffbe6;
-}
-.box:hover {
-  background-color: #00b7cd;
-}
-#reset {
-  height: 2.5rem;
-  width: 11rem;
-  border: 1px solid black;
-  margin-top: 40px;
-  cursor: pointer;
-  font-size: 1.3rem;
-  border-radius: 5px;
-  background-color: #e07b39;
-}
-#reset:hover {
-  background-color: black;
-  color: aliceblue;
-}
-
-#message {
-  font-size: 3rem;
-  position: fixed;
-  top: 281px;
-  left: 492px;
-  background: #fed24f;
-  color: #df301c;
-  padding: 20px 53px;
-  font-weight: bold;
-  border-radius: 10px;
-
-  display: none;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -153,7 +76,7 @@ h2 {
   width: 300px;
   display: none;
   position: absolute;
-  top: 53.70%;
+  top: 53.7%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
